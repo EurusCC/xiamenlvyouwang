@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+            background-color: #f2f2f2;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        nav ul li:hover {
+            background-color: #ccc;
+        }
+
+        nav ul li:hover>ul {
+            display: block;
+        }
+
+        nav ul ul {
+            display: none;
+            position: absolute;
+            background-color: #f2f2f2;
+        }
+
+        nav ul ul li {
+            display: block;
+        }
+
+        nav ul ul li a {
+            padding: 8px 20px;
+            color: #333;
+        }
+
+        nav ul ul li a:hover {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">关于</a>
+                <ul>
+                    <li><a href="#">公司简介</a></li>
+                    <li><a href="#">团队</a></li>
+                    <li><a href="#">历史</a></li>
+                </ul>
+            </li>
+            <li><a href="#">产品</a></li>
+            <li><a href="#">联系我们</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>

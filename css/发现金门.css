@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.box{
+    width: 100%;
+    height: 1174px;
+    background-color: rgb(181, 213, 224);
+}
+.banner{
+    width: 100%;
+    height: 525px;
+    margin: 0px auto;
+    background: url(../images/images/faxianjinmen/index_banner.jpg) no-repeat top center;
+}
+.continer{
+    width: 980px;
+    height: 504px;
+    margin: 0px auto;
+    background-color: #fff;
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    top: -90px;
+    left: 22px;
+    background: url(../images/images/faxianjinmen/导航栏.png) no-repeat;
+}
+.nav ul li {
+    display: inline-block;
+    height: 60px;
+    width: 100px; 
+    margin-left: 70px;
+    /* background-color: aquamarine; */
+}
+.shouye{
+    margin-top: 16px ;
+    margin-left: 30px;
+    height: 30px;
+    width: 100px;
+    background: url(../images/images/faxianjinmen/nav01_off.png) no-repeat 0px 0px ;
+}
+.shouye:hover{
+    /* margin-top: 16px ;
+    margin-left: 30px; */
+    /* height: 30px;
+    width: 100px; */
+    background: url(../images/images/faxianjinmen/首页.png) no-repeat 0px 0px ;
+
+}
+.wangfan{
+    height: 30px;
+    width: 120px;
+    margin-top: 16px ;
+    margin-left: -30px;
+    background: url(../images/images/faxianjinmen/nav02_off.png) no-repeat 0px 0px ;
+
+}
+.wangfan:hover{
+    background: url(../images/images/faxianjinmen/nav02_on.png) no-repeat;
+}
+
+.xingcheng{
+    height: 30px;
+    width: 120px;
+    margin-top: 16px ;
+    margin-left: -36px;
+    background: url(../images/images/faxianjinmen/nav03_off.png) no-repeat;
+}
+.xingcheng:hover{
+    background: url(../images/images/faxianjinmen/nav03_on.png) no-repeat;
+}
+.guanguang{
+    height: 30px;
+    width: 120px;
+    margin-top: 16px ;
+    margin-left: -22px;
+    background: url(../images/images/faxianjinmen/nav05_off.png) no-repeat;
+
+}
+.guanguang:hover{
+    background: url(../images/images/faxianjinmen/nav05_on.png) no-repeat;
+}
+.jinmen{
+    height: 30px;
+    width: 120px;
+    margin-top: 16px ;
+    margin-left: -10px;
+    background: url(../images/images/faxianjinmen/nav07_off.png) no-repeat;
+}
+.jinmen:hover{
+    background: url(../images/images/faxianjinmen/nav07_on.png) no-repeat;
+}
+.box1{
+    width: 100%;
+    height: 524px;
+    box-sizing: border-box;
+    padding: 10px 30px ;
+    margin-top: -80px;
+    position: relative;
+    /* background-color: aquamarine; */
+}
+.picone{
+    float: left;
+}
+.picone img{
+    width: 520px;
+    height: 240px;
+
+}
+.rlist{
+    width: 390px;
+    height: 240px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    float: left;
+    background-color: rgb(227, 239, 255);
+}
+.rlist h4{
+    color: rgb(59, 82, 127) ;
+    float: left;
+}
+#more{
+    color: rgb(59, 82, 127) ;
+    float: right;
+    margin-top: 4px;
+    font-size: 15px;
+}
+.list1{
+    width: 349px;
+    height: 200px;
+   margin-top: 36px;
+   /* background-color: blue; */
+
+}
+.list1 ul li{
+    width: 349px;
+    height: 30px;
+   background: url(../images/images/faxianjinmen/箭头1.png) no-repeat -4px -1px;
+}
+.title{
+    text-indent: 1em;
+    float: left;
+    font-size: 14px;
+    color: rgb(59, 82, 127) ;
+}
+.time{
+    float: right;
+    font-size: 14px;
+    color: rgb(149, 144, 144);
+}
+.leftdown{
+    width: 520px;
+    height: 240px;
+    float: left;
+    margin-top: 10px;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+
+}
+.leftlist{
+    width: 50%;
+    height: 240px;
+    padding: 10px;
+    float: left;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.leftdown img{
+    float:right;
+    height: 240px;
+    width: 257px;
+    
+}
+.leftlist h4{
+    color: red;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.list2{
+    margin-top: 36px;
+    float: left;
+}
+.list2 ul li{
+    font-size: 13px;
+    line-height: 20px;
+}
+.list2 ul li p{
+    float: left;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 31px;
+    text-indent: 1em;
+    background: url(../images/images/faxianjinmen/红色方块.png) no-repeat -10px 0px ;
+}
+.list2 ul li span{
+    float: left;
+    font-size: 12px;
+    margin-top: 5px;
+    color: rgb(162, 154, 154);
+}
+.rightdown{
+    width: 390px;
+    height: 240px;
+    margin-left: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    float: left;
+     background-color: rgb(235, 245, 195); 
+}
+.nav3{
+    width: 390px;
+    height: 60px;
+    /* background-color: bisque; */
+}
+.nav3 h4{
+    color: rgb(117, 133, 54);
+    margin-top: 17px;
+    margin-left: 18px;
+    float: left;
+}
+.nav3 span{
+    color: rgb(117, 133, 54);
+    float: right;
+    font-size: 15px;
+    margin-top: 17px;
+    margin-right: 18px;
+}
+.leftpic{
+    width: 50%;
+    height: 180px;
+    float: left;
+    /* background-color: rgb(37, 213, 155);   */
+}
+.leftpic img{
+    width: 90%;
+    height: 90px;
+    margin-left: 14px;
+}
+.leftpic span{
+    margin-left: 16px;
+    
+    text-indent: 2em;
+    font-size: 16px;
+}
+.leftpic p{
+    font-size: 12px;
+    margin-left: 16px;
+    
+}
+.rightpic{
+    width: 50%;
+    height: 180px;
+    float: left;
+    /* background-color: rgb(49, 37, 213); */
+
+}
+.rightpic img{
+    width: 90%;
+    height: 90px;
+    margin-left: 6px;
+}
+.rightpic span{
+    margin-left: 16px;
+    
+    text-indent: 2em;
+    font-size: 16px;
+}
+.rightpic p{
+    font-size: 12px;
+    margin-left: 16px;
+    
+}
+.bottom{
+    width: 100%;
+    height: 145px;
+    background: linear-gradient(to bottom, rgb(37,140,176), rgb(18,70,87));
+}
+.bottom p{
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 600px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+}
+.bottom p a{
+    font-size: 13px;
+    color: white;
+}
+.bottom p a:hover{
+    text-decoration: underline;
+}
+.db{
+    width: 90%;
+    height: 80px;
+    float: left;
+     margin-top: 30px;   
+    margin: -2px -81px;
+    /* background-color: aqua; */
+    /* border-top: 1px solid gray; */
+}
+
+ .db a{
+    font-size: 13px;
+    color: white;
+} 
+.min{
+    margin-left: 353px;
+
+}
+.db a:hover{
+    color: gainsboro;
+}
+
+.db span{
+    font-size: 12px;
+    color: gainsboro;
+}

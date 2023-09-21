@@ -1,0 +1,1006 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* .body{
+    background: url(../images/images/shouye/bg.jpg) no-repeat; */
+
+
+.box{
+    width: 1520px; 
+    /* width: 100%; */
+    height: 3111px;
+    position: relative;
+    margin: 0 auto;
+    background: url(../images/images/shouye/bg.jpg) no-repeat; 
+    /* background-color: rgb(184, 228, 255); */
+}
+.wnav{
+    width: 100%;
+    background: black;
+}
+.nav{
+    width: 1520px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    background: black;
+}
+
+.box1{
+    float: right;
+}
+/* 语言，天气导航栏 */
+.lag,.lag1,.lag2,.lag3{
+    width: 85px;
+    height: 40px;
+    background-color: aqua;
+    float: left;
+    margin-left: 5px;
+    
+}
+.lag{
+    background: url(../images/images/shouye/lag.png) 15px 3px;
+
+}
+.lag:hover{
+    background: url(../images/images/shouye/lag.png) -65px 3px;
+}
+
+.lag1{
+    background: url(../images/images/shouye/lag.png) 15px 105px;
+
+}
+.lag1:hover{
+    background: url(../images/images/shouye/lag.png) -65px 105px;
+}
+
+.lag2{
+    background: url(../images/images/shouye/lag.png) 15px 70px;
+}
+.lag2:hover{
+    background: url(../images/images/shouye/lag.png) -65px 70px;
+}
+
+.lag3{
+    background: url(../images/images/shouye/lag.png) 6px 35px;
+}
+.lag3:hover{
+    background: url(../images/images/shouye/lag.png) -72px 35px;
+}
+
+.weather{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(0, 138, 206);
+    float: left;
+    margin-right: 100px;
+    position: relative;
+}
+.weather>img{
+    width: 34px;
+    position: absolute;
+    top: 4px;
+    left: 7px;
+}
+.weather>a{
+    position: absolute;
+    top: 10px;
+    left: 49px;
+    font-size: 15px;
+}
+/* 首页导航栏 */
+.nav1{
+    width: 1520px;
+    height:62px ;
+    background-color: rgb(0, 43, 73);
+    position: absolute;
+    top: 60px;
+}
+#logo{
+    position: absolute;
+    top: -40px;
+    left: 160px;
+}
+.nav1>ul{
+    margin-left: 384px;
+}
+.indexnav{
+    display: inline-block;
+    margin: 15px 18px;
+    position: relative;
+}
+.indexnav>a{
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+/* 悬浮下来菜单 */
+.drop1{
+    width: 160px;
+    background-color: rgb(0, 138, 206) ;
+    position: absolute;
+    top: 48px ;
+    left: -18px;
+    display: none;
+    z-index: 100;
+}
+.drop1>li{
+    color: white;
+    font-size: 16px;
+    margin: 20px 20px;
+    
+}
+.indexnav:hover .drop1{
+    display: block;
+}
+/* 导航栏下面的大图 */
+.box2{
+    width: 1520px;
+    height: 400px;
+    position: absolute;
+    top: 122px;
+    background-color: #e36a6a;
+    background: url(../images/images/shouye/bpic.jpg) no-repeat 0px 0px;
+}
+.huayuan>p{
+    font-size: 50px;
+    font-weight: 800px;
+    color: white;
+    float: right;
+    margin-top: 30px;
+    margin-right: 170px;
+    text-shadow: 2px 2px rgb(94, 92, 92);
+}
+.box3{
+    width: 1216px;
+    height: 320px;
+    position: relative;
+    top: 490px; 
+    left: 0px;
+    margin: 0px 153px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    /* background-color: aquamarine; */
+}
+/* 左边 */
+.left{
+    width: 18%;
+    height: 320px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    background:  rgb(1, 58, 99);
+    float: left;
+}
+.left>hr{
+    border-color: rgb(10, 113, 181);
+}
+.box3>.left>h4{
+    color: rgb(125, 199, 250);
+    margin-bottom: 20px;
+
+}
+.itme1{
+    color: white;
+    font-size: 16px;
+    margin: 15px 20px;
+    list-style: square;
+}
+.itme1>a{
+    color: white;
+}
+
+.itme1>a:hover{
+    color: rgb(0, 138, 206);
+}
+/* 中间内容 */
+.center{
+    width: 56%;
+    height: 320px;
+    float: left;
+    margin-left: 20px;
+    background: url(../images/images/shouye/zwy2.jpg) no-repeat;
+    
+}
+.right{
+    width:22.5% ;
+    height: 320px;
+    /* background-color: #e88686; */
+    float: left;
+    margin-left: 20px;   
+}
+.title{
+    width:100%;
+    height: 43px;
+    position: relative;
+    float: left;
+    /* background: #20ca4d; */
+    padding: 5px 0px;
+    box-sizing: border-box;
+    border-bottom:rgb(13, 134, 215) 2px solid ;
+    background: url();
+}
+
+#newest{
+    float: left;
+    height: 33px;
+    margin-top: 2px;
+    border-bottom:rgb(3, 82, 134) 3px solid ;
+}
+
+#more{
+    float: right;
+    font-size: 18px;
+    color: black;
+}
+.content{
+     width: 100%; 
+    height: 265px;
+    margin-top: 55px;
+    background: white;
+}
+
+
+/* 右边列表 */
+.content>ul>li{  
+    font-size: 14px;
+    line-height: 33px;
+    text-indent: 1.5em;
+    background: url(../images/images/shouye/sm_arrow.png) no-repeat 9px 15px;
+}
+.content>ul>li:hover{
+    
+    text-decoration: underline;
+}
+
+.content>ul>li>a{
+    color: black;
+}
+.content>ul>li>a:hover{
+    color: rgb(80, 125, 222);
+}
+#more:hover{
+    color: rgb(80, 125, 222);
+}
+/* 线路 */
+.box4{
+    width: 1216px;
+    height: 450px;
+    position: relative;
+    top: 489px;
+    left: 153px;
+    /* background-color: white; */
+}
+.path{
+    width: 75.8%;
+    height: 450px;
+    /* background-color: aquamarine; */
+    float: left;
+}
+/* 线路导航栏 */
+.nav2{
+    width: 100%;
+    height: 50px;
+    background: rgb(0, 98, 165);
+}
+.nav2>p{
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    float: left;
+    margin-top: 13px;
+    margin-left: 19px;
+}
+/* 导航栏2列表 */
+#shiyi,
+#yeyou,
+#gulangyu,
+#zijia,
+#zhoubian{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 15px;
+} 
+
+#shiyi{
+    background-color: rgb(255, 223, 94);
+    color: rgb(110, 88, 0);
+}
+#shiyi:hover{
+    color: white;
+    background-color: rgb(0, 43, 73);
+}
+#yeyou{
+    background-color: rgb(96, 189, 254);
+    color: rgb(0, 49, 82);
+}
+#yeyou:hover{
+    color: white;
+    background-color: rgb(0, 43, 73);
+}
+#gulangyu{
+    background-color: rgb(156, 226, 128);
+    color: rgb(22, 77, 0);
+}
+#gulangyu:hover{
+    color: white;
+    background-color: rgb(0, 43, 73);
+}
+#zijia{
+    background-color: rgb(69, 210, 193);
+    color: rgb(0, 75, 65);
+}
+#zijia:hover{
+    color: white;
+    background-color: rgb(0, 43, 73);
+}
+#zhoubian{
+    background-color:rgb(254, 167, 202);
+    color: rgb(237, 72, 138);
+}
+#zhoubian:hover{
+    color: white;
+    background-color: rgb(0, 43, 73);
+}
+.lxnav{
+    float: left;
+    margin-left: 142px;
+}
+.nav2 em{
+    float: right;
+    margin-right: 12px;
+    margin-top: 16px;
+    font-size: 13px;
+    color: white;
+}
+.nav2 em:hover{
+    color: rgb(100, 186, 229);
+}
+
+
+
+/* 1234个景点介绍 */
+.item01{
+    width: 30%;
+    height: 400px;
+    float: left;
+    background-color: rgb(209, 231, 244);
+}
+.wanguo{
+    height: 148px;
+    margin-top: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.jianzhu{
+    font-size: 25px;
+    font-weight: 600;
+    
+    text-align: left;
+}
+.jianzhu>em{
+    font-size: 40px;
+    color: rgb(86, 173, 223);
+}
+.jieshao{
+    font-size: 12px;
+    text-align: left;
+}
+.item01 .jieshao:hover{
+    color: rgb(13, 134, 215);
+    cursor: pointer;
+}
+.wantupian{
+    
+    position: relative;
+}
+.jiantou{
+    position: absolute;
+    top: 0px;
+    right: 60px;
+}
+.tu2{
+    width: 276.51px;
+}
+
+.item2{
+    width:70%;
+    height: 400px;
+    float: left;
+    background-color: white;
+   box-sizing: border-box; 
+   
+}
+.item02,.item03,.item04{
+    width: 97%;
+    height:110px;
+    /* background-color: aquamarine; */
+    margin: 10px;
+    
+}
+.item02:hover{
+    background-color: rgb(239, 237, 237);
+}
+.item03:hover{
+    background-color: rgb(239, 237, 237);
+}
+.item04:hover{
+    background-color: rgb(239, 237, 237);
+}
+/* .item03{
+    border-top:  1px dashed rgb(203, 203, 203);
+    border-bottom:  1px dashed rgb(203, 203, 203);
+    margin: 5px;
+    box-sizing: border-box;
+} */
+hr{
+    border: 1px dashed rgb(203, 203, 203);
+}
+.haishang{
+    float: left;
+    margin-top: 9px;
+    margin-left: 43px;
+}
+.tu3{
+    width: 140px;
+    
+    float: left;
+    box-sizing: border-box;
+}
+.tu3>img{
+    width: 163px;
+    height: 106px;
+    margin-top: 3px;
+    margin-left: 7px;
+}
+/* 线路左边的三个图片  */
+.pic{
+    width: 22.7%;
+    height: 450px;
+    /* background-color: aqua; */
+    float: right;
+}
+.pic:hover{
+    cursor: pointer;
+}
+.pic1,.pic2,.pic3
+{
+    width: 100%;
+    height: 140px;
+    background-color: rgb(20, 206, 63);
+  
+}
+.pic2,.pic3{
+    margin-top: 17px;
+}
+.pic1{
+    background: url(../images/images/shouye/45-2.jpg) no-repeat;
+}
+.pic2{
+    background: url(../images/images/shouye/honse.jpg) no-repeat;
+}
+.pic3{
+    background: url(../images/images/shouye/wx3.jpg) no-repeat;
+}
+/* 旅游向导的样式 */
+.box5{
+    width: 1520px;
+    height: 458px;
+    /* background-color: pink; */
+    position: relative;
+    top: 507px;
+}
+/* 旅游向导标题 */
+.title1{
+    width: 1520px;
+    height: 100px;
+    position: relative;
+    /* float: left; */
+    background: url(../images/images/shouye/tit-line.png) no-repeat 570px 45px;
+    /* background-color: rgb(239, 90, 115); */
+}
+.title1>h2{
+    position: absolute;
+    top: 24px;
+    left: 693px;
+   color: rgb(69, 69, 69);
+}
+.lefttu{
+    width: 160px;
+    height: 358px;
+    /* background-color: #bbe17d;  */
+    float: left;
+    position: relative;
+}
+.lefttu1{
+    width: 50px;
+    height: 53px;
+     /* background-color: red;  */
+    background: url(../images/images/shouye/tg_arrow.png) no-repeat 0px 0px; 
+    position: absolute;
+    top: 132px;
+    right: 0px;
+}
+.lefttu1:hover{
+    background: url(../images/images/shouye/tg_arrow.png) no-repeat 0px -51px;
+
+}
+.kuang1{
+    width: 1200px;
+    height:358px;
+    /* background-color: aqua; */
+    float: left
+
+}
+.jingqu{
+    width: 19%;
+    height: 358px;
+    /* background-color: rgb(30, 196, 82); */
+    float: left;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    position: relative;
+}
+.jingqu span{
+    position: absolute;
+    top: 13px;
+    left: 18px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    z-index: 16;
+    text-shadow:rgb(94, 92, 92) 2px 2px ;
+}
+.jingqu img{
+    position: absolute;
+    width: 228px;
+    height: 276px;
+    top: 0px;
+}
+.liebiao{
+    margin-top: 276px;
+    background-color: #fff;
+}
+.jingqu li{
+    display: inline-block;
+    width: 100px;
+    margin-left: 11px;
+    text-indent: 1em;
+    background: url(../images/images/shouye/sm_dot.png) no-repeat 11px 14px;
+}
+.jingqu li :hover{
+    color: rgb(67, 169, 237);
+}
+#gulangyuli{
+    width: 150px;
+}
+.jingqu a{
+    font-size: 12px;
+    color: black;
+}
+.jingqu:hover{
+    cursor: pointer;
+}
+.righttu{
+    width: 160px;
+    height: 358px;
+    /* background-color: #bbe17d; */
+    float: left;
+    position: relative;
+}
+.righttu1{
+    width: 50px;
+    height: 53px;
+     /* background-color: red;  */
+    background: url(../images/images/shouye/tg_arrow.png) no-repeat -55px 0px; 
+    position: absolute;
+    top: 132px;
+    left: 0px;
+
+}
+.righttu1:hover{
+    background: url(../images/images/shouye/tg_arrow.png) no-repeat -55px -51px; 
+
+}
+/* 热门推荐 */
+.box6{
+    width: 1520px;
+    height: 563px;
+     /* background-color: pink;  */
+    position: relative;
+    top: 521px;
+
+}
+.kuang2{
+    width: 1200px;
+    height:463px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    /* background-color: #e36a6a; */
+}
+/* 长的图片 */
+.picchang{
+    width: 474px;
+    float: left;
+    position: relative;
+    margin-bottom: 15px;
+    /* margin-right: 30px; */
+}
+.picchang img{
+    width: 474px;
+}
+.picfang{
+    width: 228px;
+    /* height: 228px; */
+    /* overflow: hidden; */
+    float: left;
+    position: relative;
+    margin-left: 14px;
+   margin-bottom: 15px;
+}
+.picfang img{
+     width: 228px; 
+     height: 228px;
+}
+.picfang:nth-of-type(5){
+    margin-left: 0px;
+}
+.picfang:nth-of-type(6){
+    margin-left: 18px;
+}
+.picchang:hover::before {
+    opacity: 0.5;
+  }
+  .picchang img {
+    display: block;
+    max-width: 100%;
+    transition: filter 0.3s ease;
+  }
+  
+  .picchang:hover img {
+    filter: brightness(50%); /* 降低亮度 */
+  }
+  .picfang:hover::before {
+    opacity: 0.5;
+  }
+  .picfang img {
+    display: block;
+    max-width: 100%;
+    transition: filter 0.3s ease;
+  }
+  
+  .picfang:hover img {
+    filter: brightness(50%); /* 降低亮度 */
+  }
+.kuang2 span{
+    position: absolute;
+    bottom:11px;
+    left: 15px;
+    z-index: 16;
+    color: white;
+    font-size: 18px;
+    text-shadow:rgb(94, 92, 92) 2px 2px 2px ;
+
+}
+/* 游记攻略 */
+.box7{
+    width: 1520px;
+    height: 563px;
+    /* background-color: pink;   */
+    position: relative;
+    top: 548px;
+    box-sizing: border-box;
+}
+.title2{
+    width: 1520px;
+    /* background-color: rgb(241, 72, 100);   */
+}
+.title2>em{
+    margin-left: 600px;
+   font-weight: 350;
+    font-size: 20px;
+}
+.title3{
+    width: 1520px;
+    margin-bottom: 15px;
+    /* background-color: rgb(124, 10, 29);   */
+}
+.title3>a{
+    margin-left: 719px;
+    font-weight: 300;
+     font-size: 20px;
+     color: rgb(0, 138, 206);
+}
+.title3>a:hover{
+    color: black;
+}
+.kuang3{
+    width: 1200px;
+    height:390px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    /* background-color: aquamarine; */
+}
+.kuang3 ul li {
+    float: left;
+    width: 285px;
+    height: 285px;
+    position: relative;
+    margin-left: 12px;
+}
+
+.kuang3 ul li img{
+    border-radius: 141px;
+    width: 285px;
+    height: 285px;
+    position: absolute;
+}
+.bottom{
+    position: absolute;
+    bottom: -2px;
+    left: 16px;
+    width: 286px;
+    height: 76px;
+    background: url(../images/images/shouye/strategy_msk.png) no-repeat;
+}
+.bottom-txt{
+    position: absolute;
+    bottom: 39px;
+    left: 43px;
+}
+.bottom-til{
+    width: 200px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    line-height: 16px;
+}
+.kuang3>ul>li:hover  .bottom-til{
+    color: rgb(0, 138, 206);
+}
+.bottom-til:hover{
+    color: rgb(0, 138, 206);
+}
+
+.ad{
+    position:absolute;
+    left: 109px;
+    bottom: 10px;
+
+}
+.xia{
+    width: 78px;
+    height: 24px;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    background: url(../images/images/shouye/strategy_pos.png) no-repeat 0px 0px;
+}
+/* 首页最下面 */
+.box8{
+    width: 1520px;
+    height: 260px;
+    background-color: rgb(34, 33, 33);
+    position: relative;
+    bottom: -541px;
+    
+    
+}
+.kuang4{
+    width: 1200px;
+    height:260px;
+    margin: 0px auto;
+    /* background-color: aquamarine; */
+
+}
+/* 二维码部分 */
+.left-4{
+    width: 400px;
+    height: 200px;
+    /* background-color: blue; */
+    float: left;
+}
+.xialeft{
+    float: left;
+    width: 200px;
+    height: 200px;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+  
+}
+.xialeft h3{
+    margin-top: 20px;
+}
+
+.xialeft span{
+    font-size: 13px;
+    
+}
+.rightQR{
+    float: left;
+    width: 200px;
+    height: 200px;
+    /* background-color: rgb(30, 194, 46); */
+    position: relative;
+}
+.qrcode{
+    position: absolute;
+    top: 32px;
+    left: 37px;
+}
+.rightQR img{
+    float: left;
+    width: 120px;
+}
+.gengduo{
+    position: absolute;
+    bottom: 13px;
+    left: 38px;
+}
+.rightQR p{
+    color: rgb(216, 212, 212);
+    font-size: 12px;
+    text-align: center;
+}
+/* 中间列表部分 */
+.center-4{
+    width: 400px;
+    height: 200px;
+    /* background-color: rgb(28, 200, 71); */
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+     padding-top: 20px; 
+}
+.center-4 h3{
+    color: rgb(0, 138, 206);
+    margin-left: 42px;
+    
+}
+.center-4 ul li{
+    float: left;
+    height: 22px;
+    font-size: 12px;
+    margin-left: 40px;
+    background: url(../images/images/shouye/sm_dot.png) no-repeat 1px 6px; 
+    text-indent: 1em;
+}
+.center-4 ul li a{
+    color: white;
+}
+.center-4 ul li a:hover{
+    color: rgb(142, 141, 141);
+}
+
+
+
+/* 联系方式 */
+.right-4{
+    width: 400px;
+    height: 200px;
+    /* background-color: rgb(236, 150, 21); */
+    float: left;
+    box-sizing: border-box;
+}
+.right-4 h3{
+    margin-left: 20px;
+    color: rgb(0, 138, 206);
+    margin-top: 20px;
+}
+.right-4 ul li{
+    height: 40px;
+    margin-left: 17px;
+    margin-top: 10px;
+    background: url(../images/images/shouye/arrow_bottom.png)  no-repeat 1px 13px;
+}
+.right-4 span{
+    margin-left: 10px;
+    color: #c6c2c2;
+    line-height: 38px;
+}
+.xinfeng{
+    width: 20px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+ .tubiao{
+    display: inline-block;
+ 
+    height: 20px;
+    /* margin-left: 14px;
+    margin-top: 8px; */
+} 
+.tb1{
+    width: 32px;
+    height: 28px;
+    float: left;
+    margin-left: 5px;
+    background: url(../images/images/shouye/底部图标.png) 0px 0px no-repeat;
+}
+.tb1:hover{
+    background: url(../images/images/shouye/底部图标.png) 0px -2px no-repeat;
+}
+.tb2{
+    width: 32px;
+    height: 28px;
+    float: left;
+    background: url(../images/images/shouye/底部图标.png) -31px 0px no-repeat;
+}
+.tb2:hover{
+    background: url(../images/images/shouye/底部图标.png) -31px -2px no-repeat;
+}
+.tb3{
+    width: 32px;
+    height: 28px;
+    float: left;
+    background: url(../images/images/shouye/底部图标.png) -62px 0px no-repeat;
+}
+.tb3:hover{
+    background: url(../images/images/shouye/底部图标.png) -62px -2px no-repeat;
+}
+.tb4{
+    width: 32px;
+    height: 28px;
+    float: left;
+   
+    background: url(../images/images/shouye/底部图标.png) -93px 0px no-repeat;
+}
+.tb4:hover{
+    background: url(../images/images/shouye/底部图标.png) -93px -2px no-repeat;
+}
+.tb5{
+    width: 32px;
+    height: 28px;
+    float: left;
+    background: url(../images/images/shouye/底部图标.png) -124px 0px no-repeat;
+}
+.tb5:hover{
+    background: url(../images/images/shouye/底部图标.png) -124px -2px no-repeat;
+}
+
+
+.border{
+    border-left: 1px solid gray;
+    height: 160px;
+}
+/* 底部部分 */
+.bottom-4{
+    width: 1200px;
+    height: 60px;
+    /* background-color: blanchedalmond; */
+    float: left;
+    border-top: 1px solid gray;
+}
+.bah{
+    width: 500px;
+    margin-top: 19px;
+    margin-left: 372px;
+}
+.bah a{
+    font-size: 13px;
+    color: white;
+
+}
+.bah a:hover{
+    color: gainsboro;
+}
+
+.bah span{
+    font-size: 12px;
+    color: gainsboro;
+}
+
+
+
